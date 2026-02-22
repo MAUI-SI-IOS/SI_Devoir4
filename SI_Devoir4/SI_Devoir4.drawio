@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.2">
   <diagram name="Page-1" id="pnPmjE7-YJT8hm3zoUwL">
-    <mxGraphModel dx="2253" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2522" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,13 +48,13 @@
             <mxPoint x="70" y="590" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SQ5l59R7-5ex9_LwXS6A-18" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=light-dark(#e51400, #000000);fontColor=#ffffff;strokeColor=#B20000;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;IDelegate&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;+ State: ITirenessState&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 128, 0));&quot;&gt;+ ChangedState(): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;+ Work(): void&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;+ Observe(IDelegateObserver): void&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="SQ5l59R7-5ex9_LwXS6A-18" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=light-dark(#e51400, #000000);fontColor=#ffffff;strokeColor=#B20000;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;IDelegate&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;+ state: IState&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;+ Work(): void&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;+ SetState(): void&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;+ Observe(IDelegateObserver): void&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="140" width="257" x="413" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="SQ5l59R7-5ex9_LwXS6A-19" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=light-dark(#fa6800, #000000);fontColor=#000000;strokeColor=#C73500;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ITirenessState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ChangeState(IDelegate): void&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="190" x="440" y="-170" as="geometry" />
+        <mxCell id="SQ5l59R7-5ex9_LwXS6A-19" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=light-dark(#fa6800, #000000);fontColor=#000000;strokeColor=#C73500;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ChangeState(IDelegate): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="1036.5" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="6ZjM22tmZTcyWpiHcv-M-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=light-dark(#e51400, #000000);fontColor=#ffffff;strokeColor=light-dark(#B20000,#0000FF);" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;IDelegateObserver&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;+ Update(IDelegate): void&lt;/font&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="6ZjM22tmZTcyWpiHcv-M-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=light-dark(#e51400, #000000);fontColor=#ffffff;strokeColor=light-dark(#B20000,#0000FF);" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;IObserver&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 249, 243));&quot;&gt;+ Update(IDelegate): void&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="70" width="190" x="170" y="300" as="geometry" />
         </mxCell>
         <mxCell id="6ZjM22tmZTcyWpiHcv-M-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=13;strokeColor=light-dark(#000000,#0000FF);" target="6ZjM22tmZTcyWpiHcv-M-1">
@@ -81,7 +81,7 @@
         <mxCell id="iZh72JLDlEyfv3yX3ak1-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Paramedic" vertex="1">
           <mxGeometry height="216" width="270" x="660" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="iZh72JLDlEyfv3yX3ak1-2" parent="iZh72JLDlEyfv3yX3ak1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- observers: List&amp;lt;IDelegateObserver&amp;gt;" vertex="1">
+        <mxCell id="iZh72JLDlEyfv3yX3ak1-2" parent="iZh72JLDlEyfv3yX3ak1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- observers: List&amp;lt;IObserver&amp;gt;" vertex="1">
           <mxGeometry height="26" width="270" y="26" as="geometry" />
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-5" parent="iZh72JLDlEyfv3yX3ak1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _state: ITirenessState" vertex="1">
@@ -108,7 +108,7 @@
         <mxCell id="iZh72JLDlEyfv3yX3ak1-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Nurse" vertex="1">
           <mxGeometry height="216" width="270" x="333" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="iZh72JLDlEyfv3yX3ak1-11" parent="iZh72JLDlEyfv3yX3ak1-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- observers: List&amp;lt;IDelegateObserver&amp;gt;" vertex="1">
+        <mxCell id="iZh72JLDlEyfv3yX3ak1-11" parent="iZh72JLDlEyfv3yX3ak1-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- observers: List&amp;lt;IObserver&amp;gt;" vertex="1">
           <mxGeometry height="26" width="270" y="26" as="geometry" />
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-12" parent="iZh72JLDlEyfv3yX3ak1-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _state: ITirenessState" vertex="1">
@@ -135,7 +135,7 @@
         <mxCell id="iZh72JLDlEyfv3yX3ak1-19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Doctor" vertex="1">
           <mxGeometry height="216" width="270" x="-20" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="iZh72JLDlEyfv3yX3ak1-20" parent="iZh72JLDlEyfv3yX3ak1-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- observers: List&amp;lt;IDelegateObserver&amp;gt;" vertex="1">
+        <mxCell id="iZh72JLDlEyfv3yX3ak1-20" parent="iZh72JLDlEyfv3yX3ak1-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- observers: List&amp;lt;IObserver&amp;gt;" vertex="1">
           <mxGeometry height="26" width="270" y="26" as="geometry" />
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-21" parent="iZh72JLDlEyfv3yX3ak1-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _state: ITirenessState" vertex="1">
@@ -159,11 +159,11 @@
         <mxCell id="iZh72JLDlEyfv3yX3ak1-27" parent="iZh72JLDlEyfv3yX3ak1-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Work(): void" vertex="1">
           <mxGeometry height="26" width="270" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="iZh72JLDlEyfv3yX3ak1-28" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TiredState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ static Instance: TiredState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ChangeState(IDelegate): void&lt;/p&gt;" vertex="1">
-          <mxGeometry height="90" width="197" x="630" y="-380" as="geometry" />
+        <mxCell id="iZh72JLDlEyfv3yX3ak1-28" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;~ Tired&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- static instance: IState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ChangeState(IDelegate): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Instance(): IState&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="197" x="1226.5" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="iZh72JLDlEyfv3yX3ak1-29" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NotTiredState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ static Instance: NotTiredState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ChangeState(IDelegate): void&lt;/p&gt;" vertex="1">
-          <mxGeometry height="90" width="197" x="180" y="-380" as="geometry" />
+        <mxCell id="iZh72JLDlEyfv3yX3ak1-29" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;~ NotTired&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- static instance: IState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ChangeState(IDelegate): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ static Instance(): IState&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="197" x="839.5" y="280" as="geometry" />
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-31" edge="1" parent="1" source="SQ5l59R7-5ex9_LwXS6A-19" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="SQ5l59R7-5ex9_LwXS6A-18" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -173,14 +173,18 @@
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-32" edge="1" parent="1" source="iZh72JLDlEyfv3yX3ak1-29" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SQ5l59R7-5ex9_LwXS6A-19" value="">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="230" y="-150" as="sourcePoint" />
-            <mxPoint x="390" y="-150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="938" y="210" />
+              <mxPoint x="1132" y="210" />
+            </Array>
+            <mxPoint x="820" y="60" as="sourcePoint" />
+            <mxPoint x="980" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-33" edge="1" parent="1" source="iZh72JLDlEyfv3yX3ak1-28" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SQ5l59R7-5ex9_LwXS6A-19" value="">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="230" y="-150" as="sourcePoint" />
-            <mxPoint x="390" y="-150" as="targetPoint" />
+            <mxPoint x="820" y="60" as="sourcePoint" />
+            <mxPoint x="980" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iZh72JLDlEyfv3yX3ak1-34" edge="1" parent="1" source="iZh72JLDlEyfv3yX3ak1-19" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SQ5l59R7-5ex9_LwXS6A-6" value="">
