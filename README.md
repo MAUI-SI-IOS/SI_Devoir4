@@ -1,3 +1,9 @@
+# Fonctionnement
+Docteur ->  a priorite donc il travaille quand il peux
+Nurse, Paramedic -> travaillent quand ils doivents
+
+
+
 # SI\_Devoir4
 
 ## Devoir 04 – 5 points
