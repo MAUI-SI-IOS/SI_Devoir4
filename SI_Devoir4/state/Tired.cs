@@ -1,6 +1,8 @@
 
 
 
+using Delegate;
+
 namespace State;
 
 
@@ -11,10 +13,9 @@ internal class Tired: IState {
   private Tired(){ }
 
 
-  public void ChangeState(IDelegate worker)
+  public void ChangedState(IDelegate worker)
   {
-    Console.WriteLine("Not tired anymore");
-    worker.SetState(NotTired.Instance()); 
+        worker.state = NotTired.Instance(); 
   }
   
   public  static IState Instance() 

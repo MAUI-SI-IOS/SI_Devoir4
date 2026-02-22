@@ -2,6 +2,8 @@
 
 
 
+using Delegate;
+
 public interface IState {
-  void ChangedState();
+    void ChangedState(IDelegate worker);
 }
