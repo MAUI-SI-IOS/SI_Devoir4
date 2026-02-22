@@ -13,7 +13,7 @@ internal class Tired: IState {
   private Tired(){ }
 
 
-  public void ChangedState(IDelegate worker)
+  public void ChangedState(Member worker)
   {
         worker.state = NotTired.Instance(); 
   }

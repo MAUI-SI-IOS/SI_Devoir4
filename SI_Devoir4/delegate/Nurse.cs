@@ -6,7 +6,7 @@ using State;
 
 namespace Delegate;
 
-public class Nurse : IDelegate
+public class Nurse : Member
 {
     int stamina;
     int staminaPoint;

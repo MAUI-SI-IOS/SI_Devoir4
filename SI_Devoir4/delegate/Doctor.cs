@@ -4,7 +4,7 @@ using System.Diagnostics.Metrics;
 namespace Delegate;
 
 
-public class Doctor: IDelegate 
+public class Doctor: Member
 {
     int stamina;
     int staminaPoint;
@@ -21,7 +21,7 @@ public class Doctor: IDelegate
         {
             if (staminaPoint == 0) 
             {
-                Console.WriteLine($"{id}Doctor {name} is Tired, calling new worker");
+                Console.WriteLine($"Doctor {name} is Tired, calling new worker");
                 ChangedState();
                 Notify();
             }

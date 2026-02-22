@@ -5,5 +5,5 @@
 using Delegate;
 
 public interface IState {
-    void ChangedState(IDelegate worker);
+    void ChangedState(Member worker);
 }

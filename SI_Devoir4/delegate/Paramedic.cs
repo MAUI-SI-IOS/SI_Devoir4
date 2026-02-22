@@ -3,7 +3,7 @@ using State;
 namespace Delegate;
 
 
-public class Paramedic: IDelegate 
+public class Paramedic: Member
 {
     int stamina;
     int staminaPoint;

@@ -10,7 +10,7 @@ internal class NotTired: IState {
   private NotTired() { }
 
   
-  public void ChangedState(IDelegate worker)
+  public void ChangedState(Member worker)
   {
         worker.state = Tired.Instance();
   }

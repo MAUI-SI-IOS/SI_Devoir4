@@ -9,16 +9,16 @@ using Observer;
 namespace Delegate;
 
 
-public abstract class IDelegate: ISubject  {
+public abstract class Member: ISubject  {
     static private int counter = 0;
     internal int id { get; set; }
     internal IState state;
     private Team? observer;
 
-    public IDelegate()
+    public Member()
     {
-        this.id = IDelegate.counter;
-        IDelegate.counter ++;
+        this.id = Member.counter;
+        Member.counter ++;
         this.state = NotTired.Instance();
     }
 

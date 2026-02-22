@@ -10,29 +10,29 @@ namespace Delegate;
 
 public class Team 
 {
-    Doctor          doctor; //keep track of the doctor
-    IDelegate       worker; //keep track of the leader
-    List<IDelegate> team;   //the team
+    Doctor doctor;       //keep track of the doctor
+    Member worker;       //keep track of the leader
+    List<Member> team;   //the team
 
     public Team(Doctor doctor)
     {
         doctor.SetTeam(this);
         this.doctor = doctor;
         this.worker = doctor;
-        this.team = new List<IDelegate>();
+        this.team = new List<Member>();
         this.team.Add(doctor);
     }
     
-    public void AddMember(IDelegate member)
+    public void AddMember(Member member)
     {
         member.SetTeam(this);
         this.team.Add(member);
     }
-    public IDelegate GetWorker()
+    public Member GetWorker()
     {
         return this.worker;
     }
-    public List<IDelegate> GetTeamExceptWorker()
+    public List<Member> GetTeamExceptWorker()
     {
         return this.team.Where(m => m.id != worker.id).ToList();
     }
