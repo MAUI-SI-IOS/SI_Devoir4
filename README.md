@@ -2,7 +2,11 @@
 - Docteur ->  a priorite donc il travaille quand il peux
 - Nurse, Paramedic -> travaillent quand ils doivents
 
+IDelegate -> {mediateur, delegate, et proxy}
+Coordonne la logique, il s'occupe de notifier l'observeur et il s'occupe de changer le state
 
+Teams
+est l'observeur il est l'agglomeration d'un equipe sont equipe est composer de lui et lui est composer de son equipe
 
 # SI\_Devoir4
 
